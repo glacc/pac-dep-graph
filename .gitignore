@@ -1,0 +1,11 @@
+_old_
+_sketch_
+
+flags-last-build
+libs-last-build
+*.o
+*.d
+*.s
+
+pac-dep-graph
+*.gv

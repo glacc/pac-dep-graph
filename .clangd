@@ -1,0 +1,22 @@
+Completion:
+  HeaderInsertion: Never
+
+CompileFlags:
+  Add:
+    - -DAPP_NAME="pac-dep-tree"
+
+---
+
+If:
+  PathMatch: [".*\\.c"]
+CompileFlags:
+  Add:
+    - -std=c23
+
+---
+
+If:
+  PathMatch: [".*\\.cpp", ".*\\.hpp", ".*\\.h"]
+CompileFlags:
+  Add:
+    - -std=c++23
